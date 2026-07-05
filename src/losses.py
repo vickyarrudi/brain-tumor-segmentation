@@ -2,7 +2,7 @@ import torch.nn.functional as F
 
 
 def dice_loss(logits, targets, smooth=1e-6):
-    """Dice loss promediado sobre el batch."""
+    """Dice loss promediado sobre el batch"""
     import torch
     probs = torch.sigmoid(logits).flatten(1)
     targets = targets.flatten(1)
@@ -12,6 +12,6 @@ def dice_loss(logits, targets, smooth=1e-6):
 
 
 def combined_loss(logits, targets):
-    """BCE + Dice."""
+    """BCE + Dice"""
     bce = F.binary_cross_entropy_with_logits(logits, targets)
     return bce + dice_loss(logits, targets)
