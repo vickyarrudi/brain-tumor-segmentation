@@ -3,7 +3,7 @@ import torch.nn as nn
 
 
 class ResidualBlock(nn.Module):
-    """DoubleCNN con shortcut residual. Conv1x1 si in_ch != out_ch."""
+    """DoubleCNN con shortcut residual. Conv1x1 si in_ch != out_ch"""
 
     def __init__(self, in_ch, out_ch):
         super().__init__()
