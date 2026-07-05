@@ -71,4 +71,4 @@ Los resultados se guardan en `results/<model>/<config>/results.json`.
 |---|---|---|
 | `unet` | `UNet` | U-Net estándar con DoubleCNN |
 | `residual_unet` | `ResidualUNet` | U-Net con bloques residuales |
-| `attention_unet` | `AttentionUNet` | U-Net con attention gates (completar) |
+| `attention_unet` | `AttentionUNet` | U-Net con attention gates |
