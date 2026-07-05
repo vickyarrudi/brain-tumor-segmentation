@@ -27,9 +27,9 @@ from src.visualize import plot_experiment_metrics, plot_experiment_curves
 
 
 #Grid de hiperparámetros 
-LR_VALUES       = [1e-3, 1e-4]
-WD_VALUES       = [1e-4, 1e-5]
-DROPOUT_VALUES  = [0.0, 0.1]
+LR_VALUES = [1e-3, 1e-4]
+WD_VALUES = [1e-4, 1e-5]
+DROPOUT_VALUES = [0.0, 0.1]
 
 
 def setup_device(seed=42):
