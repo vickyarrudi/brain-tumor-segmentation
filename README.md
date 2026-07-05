@@ -17,7 +17,7 @@ tumor-segmentation/
 │       ├── __init__.py         # MODEL_REGISTRY + get_model()
 │       ├── unet.py             # UNet, UNet++
 │       ├── residual_unet.py    # ResidualUNet
-│       └── attention_unet.py   # AttentionUNet (completar)
+│       └── attention_unet.py   # AttentionUNet 
 ├── scripts/
 │   ├── train_single.py     # entrena una config específica
 │   └── run_experiments.py  # grid search de hiperparámetros
