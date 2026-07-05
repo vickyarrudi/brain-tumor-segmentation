@@ -1,10 +1,7 @@
 import torch
 import torch.nn as nn
 
-
 class DoubleCNN(nn.Module):
-    """Dos convoluciones seguidas con BatchNorm y ReLU."""
-
     def __init__(self, in_ch, out_ch):
         super().__init__()
         self.block = nn.Sequential(
