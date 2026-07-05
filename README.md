@@ -15,7 +15,7 @@ tumor-segmentation/
 │   ├── visualize.py        # plots de EDA, predicciones, curvas
 │   └── models/
 │       ├── __init__.py         # MODEL_REGISTRY + get_model()
-│       ├── unet.py             # UNet, UNet++
+│       ├── unet.py             # UNet
 │       ├── residual_unet.py    # ResidualUNet
 │       └── attention_unet.py   # AttentionUNet 
 ├── scripts/
