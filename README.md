@@ -1,6 +1,6 @@
 # Segmentación de tumores cerebrales con U-Net
 
-Segmentación semántica binaria de tumores en imágenes MRI usando variantes de U-Net.
+Segmentación semántica de tumores en imágenes MRI usando variantes de U-Net.
 
 ## Estructura
 
