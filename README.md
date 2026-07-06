@@ -41,8 +41,9 @@ El dataset está basado en el [Figshare Brain Tumor Dataset](https://figshare.co
 
 ### Descarga
 
-1. Descargar el dataset desde el link de Kaggle (requiere cuenta de Kaggle)
+1. Descargar el dataset desde el link de Kaggle 
 2. Descomprimir el contenido en la carpeta `data/` del repositorio (o ajustar la ruta en el script de carga)
+
 Los datos deben estar en `data/images/`, `data/masks/` y `data/cuts.csv`.
 
 ## Uso
