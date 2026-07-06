@@ -12,7 +12,7 @@ def _amp_enabled(device):
 
 
 def evaluate(model, loader, device):
-    """Devuelve (dice, iou) promediados sobre el loader."""
+    """Devuelve (dice, iou) promediados sobre el loader"""
     model.eval()
     amp = _amp_enabled(device)
     total_loss = total_dice = total_iou = total_samples = 0.0
@@ -39,7 +39,7 @@ def evaluate(model, loader, device):
 
 
 def evaluate_by_cut(model, dataset, device, plot=True):
-    """Dice por tipo de corte (Axial / Coronal / Sagital)."""
+    """Dice por tipo de corte"""
     model.eval()
     results = {"Axial": [], "Coronal": [], "Sagital": []}
 
@@ -87,7 +87,7 @@ def evaluate_by_cut(model, dataset, device, plot=True):
 
 
 def evaluate_by_tumor_size(model, dataset, device):
-    """Scatter: Dice vs tamaño del tumor en píxeles."""
+    """Dice vs tamaño del tumor en píxeles"""
     model.eval()
     records = []
 
