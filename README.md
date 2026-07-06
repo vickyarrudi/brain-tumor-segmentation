@@ -65,15 +65,6 @@ python scripts/run_experiments.py --model attention_unet
 
 Los resultados se guardan en `results/<model>/<config>/results.json`.
 
-## Agregar un nuevo modelo
-
-1. Creá `src/models/mi_modelo.py` con una clase que implemente `forward(x)`.
-2. Registralo en `src/models/__init__.py`:
-   ```python
-   from src.models.mi_modelo import MiModelo
-   MODEL_REGISTRY["mi_modelo"] = MiModelo
-   ```
-3. Usalo con `--model mi_modelo` en cualquier script.
 
 ## Modelos disponibles
 
