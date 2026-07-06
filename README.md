@@ -33,7 +33,16 @@ tumor-segmentation/
 ```bash
 pip install -r requirements.txt
 ```
+Este proyecto utiliza el dataset **Brain Tumor Segmentation**, disponible públicamente en Kaggle:
 
+🔗 [https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation](https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation)
+
+El dataset está basado en el [Figshare Brain Tumor Dataset](https://figshare.com/) y contiene 3064 pares de imágenes de resonancia magnética (512×512 px) junto con sus máscaras de segmentación binaria correspondientes.
+
+### Descarga
+
+1. Descargar el dataset desde el link de Kaggle (requiere cuenta de Kaggle)
+2. Descomprimir el contenido en la carpeta `data/` del repositorio (o ajustar la ruta en el script de carga)
 Los datos deben estar en `data/images/`, `data/masks/` y `data/cuts.csv`.
 
 ## Uso
