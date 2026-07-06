@@ -1,5 +1,5 @@
 """
-Grid search de hiperparámetros.
+Grid search de hiperparámetros
 
 Uso:
     python scripts/run_experiments.py --model unet
